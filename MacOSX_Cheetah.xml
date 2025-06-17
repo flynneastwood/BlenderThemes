@@ -7,7 +7,7 @@
         icon_alpha="1"
         icon_saturation="0.5"
         widget_emboss="#f0f0f026"
-        editor_border="#f0f0f0"
+        editor_border="#d2d2d2"
         editor_outline="#1a1a1a18"
         editor_outline_active="#1a1a1a49"
         widget_text_cursor="#316ec3"
@@ -37,7 +37,7 @@
         <wcol_regular>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#316ec3ff"
             text="#1a1a1a"
@@ -52,11 +52,11 @@
         <wcol_tool>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#316ec3ff"
-            text="#1a1a1a"
-            text_sel="#424242"
+            text="#4f4f4f"
+            text_sel="#ffffff"
             show_shaded="TRUE"
             shadetop="100"
             shadedown="20"
@@ -67,11 +67,11 @@
         <wcol_toolbar_item>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#808080ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#5a5a5aff"
             text="#1a1a1a"
-            text_sel="#424242"
+            text_sel="#ffffff"
             show_shaded="TRUE"
             shadetop="100"
             shadedown="20"
@@ -82,11 +82,11 @@
         <wcol_radio>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#316ec3ff"
             text="#1a1a1a"
-            text_sel="#424242"
+            text_sel="#ffffff"
             show_shaded="TRUE"
             shadetop="100"
             shadedown="20"
@@ -112,7 +112,7 @@
         <wcol_option>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#1a1a1aff"
             text="#1a1a1a"
@@ -142,7 +142,7 @@
         <wcol_num>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#adadadff"
             item="#316ec3ff"
             text="#1a1a1a"
@@ -187,7 +187,7 @@
         <wcol_menu>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#adadadff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#1a1a1aff"
             text="#1a1a1a"
@@ -232,7 +232,7 @@
         <wcol_pie_menu>
           <ThemeWidgetColors
             outline="#4d4d4dff"
-            inner="#f2f2f2ff"
+            inner="#c7c7c7ff"
             inner_sel="#316ec3ff"
             item="#316ec3ff"
             text="#303030"
@@ -354,10 +354,10 @@
     </user_interface>
     <view_3d>
       <ThemeView3D
-        grid="#8a8a8a33"
+        grid="#e8e8e833"
         clipping_border_3d="#606060ff"
         wire="#000000"
-        wire_edit="#000000"
+        wire_edit="#020202"
         edge_width="1"
         gp_vertex="#000000"
         gp_vertex_select="#76d3ff"
@@ -365,7 +365,7 @@
         text_grease_pencil="#80ff00"
         object_selected="#3b6a80"
         object_active="#76d3ff"
-        text_keyframe="#e6e600"
+        text_keyframe="#4899bb"
         camera="#000000"
         empty="#000000"
         light="#0000004d"
@@ -385,7 +385,7 @@
         freestyle_edge_mark="#00ff80"
         face="#ffffff03"
         face_select="#76d3ff2e"
-        face_mode_select="#76d3ff2e"
+        face_mode_select="#76d3ff61"
         face_dot="#76d3ff"
         facedot_size="3"
         freestyle_face_mark="#00ff804d"
@@ -481,21 +481,21 @@
     <graph_editor>
       <ThemeGraphEditor
         grid="#c2c2c2"
-        frame_current="#316ec3"
+        frame_current="#6dacff"
         time_scrub_background="#f0f0f000"
         time_marker_line="#ffffff4d"
         time_marker_line_selected="#ffffffb3"
         window_sliders="#808080"
-        channels_region="#f2f2f2"
-        dopesheet_channel="#316ec3"
-        dopesheet_subchannel="#27589c"
-        channel_group="#408060"
+        channels_region="#a4b4ca"
+        dopesheet_channel="#5789cf"
+        dopesheet_subchannel="#6e9bdd"
+        channel_group="#6e9bdd"
         active_channels_group="#33664d"
         preview_range="#477f9966"
         vertex="#000000"
         vertex_select="#76d3ff"
         vertex_active="#ffffff"
-        vertex_size="6"
+        vertex_size="8"
         vertex_bevel="#000000"
         vertex_unreferenced="#000000"
         handle_free="#000000"
@@ -511,7 +511,7 @@
         lastsel_point="#ffffff"
         handle_vertex="#000000"
         handle_vertex_select="#76d3ff"
-        handle_vertex_size="6"
+        handle_vertex_size="8"
         >
         <space>
           <ThemeSpaceGeneric
@@ -548,7 +548,7 @@
             list="#f2f2f2"
             list_title="#424242"
             list_text="#1a1a1a"
-            list_text_hi="#76d3ff"
+            list_text_hi="#ffffff"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -668,11 +668,11 @@
         time_marker_line_selected="#ffffffb3"
         value_sliders="#000000"
         view_sliders="#bfbfbf"
-        dopesheet_channel="#316ec380"
-        dopesheet_subchannel="#27589c80"
-        channels="#f2f2f280"
+        dopesheet_channel="#5789cfff"
+        dopesheet_subchannel="#6e9bddff"
+        channels="#6e9bddff"
         channels_selected="#74b0cc80"
-        channel_group="#40806080"
+        channel_group="#6e9bddff"
         active_channels_group="#4d997380"
         long_key="#ffffff1a"
         long_key_selected="#76d3ff99"
@@ -731,7 +731,7 @@
             list="#f2f2f2"
             list_title="#424242"
             list_text="#1a1a1a"
-            list_text_hi="#76d3ff"
+            list_text_hi="#ffffff"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -994,7 +994,7 @@
         node_active="#ffffff"
         wire="#000000ff"
         wire_inner="#808080"
-        wire_select="#ffffffb3"
+        wire_select="#89c9ffb3"
         selected_text="#5a5a5a"
         node_backdrop="#c2c2c2ff"
         converter_node="#3399ff"
